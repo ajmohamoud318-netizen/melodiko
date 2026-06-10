@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useApp } from '../context/AppContext'
 import { RedFishCard } from '../components/cards/RedFishCard'
 import { BearCard } from '../components/cards/BearCard'
+import { storyCardUrl } from '../constants'
 
 // ── Sea portal (appears when fish swims away) ─────────────────────────────────
 function SeaPortal() {
@@ -125,7 +126,7 @@ const OTHER_SONGS = [
   { key: 'mary',         img: '/story-cards/bak-postaci.svg',   label: 'Bak Postacı Geliyor'       },
   { key: 'birthday',     img: '/story-cards/karpuz-adam.svg',   label: 'Karpuz Adam'                },
   { key: 'twinkle_lily', img: '/story-cards/havada-bulut.svg',  label: 'Havada Bir Top Bulut Olsam' },
-  { key: 'lullaby',      img: '/story-cards/iyi-ki-dogdun.svg', label: 'İyi Ki Doğdun'              },
+  { key: 'lullaby',      img: storyCardUrl('iyi-ki-dogdun.svg'), label: 'İyi Ki Doğdun'              },
   { key: 'old_mac',      img: '/story-cards/ari-viz.svg',       label: 'Arı Vız Vız Vız'            },
   { key: 'wheels',       img: '/story-cards/basparmak.svg',     label: 'Başparmağım Nerdesin?'      },
   { key: 'spider',       img: '/story-cards/ali-baba.svg',      label: "Ali Baba'nın Çiftliği"      },
