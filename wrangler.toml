@@ -1,0 +1,6 @@
+name = "melodiko"
+compatibility_date = "2025-01-01"
+pages_build_output_dir = "./dist"
+
+# Static SPA deployment — built by Vite (`npm run build` → dist/).
+# SPA fallback is handled by `public/_redirects`.
